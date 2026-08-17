@@ -11,7 +11,7 @@ contactForm.addEventListener("submit", async function (event) {
     try {
 
         const response = await fetch(
-            "http://localhost:5000/api/contact",
+            "https://personal-portfolio-40n2.onrender.com",
             {
                 method: "POST",
 
